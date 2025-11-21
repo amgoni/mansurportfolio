@@ -8,6 +8,29 @@ const Experience = () => {
       </Reveal>
 
       <div className="space-y-8">
+        <Reveal variant="up" delay={0.1}>
+          <div className="flex items-start gap-4">
+            <span
+              className="bg-primary mt-2 h-3.5 w-3.5 shrink-0 rounded-full"
+              aria-hidden
+            />
+            <div>
+              <h3 className="text-xl font-semibold">
+                PhD Researcher – São Paulo State University (UNESP), Brazil
+                (2025–Present)
+              </h3>
+              <p className="text-foreground text-base">
+                Run numerical simulations in Python for orbital and asteroid
+                dynamics; analyze mean motion resonances and long-term orbital
+                behavior; build and test computational models to support
+                research tasks; prepare and curate data for meetings and discuss
+                results with my supervisor; collaborate with the research group
+                on shared projects and scientific objectives; review scientific
+                papers to refine research direction and methodology.
+              </p>
+            </div>
+          </div>
+        </Reveal>
         <Reveal variant="up" delay={0.15}>
           <div className="flex items-start gap-4">
             <span
@@ -16,7 +39,7 @@ const Experience = () => {
             />
             <div>
               <h3 className="text-xl font-semibold">
-                Assistant Lecturer – Nigerian Defence Academy (2023–Present)
+                Assistant Lecturer – Nigerian Defence Academy (2023–2025)
               </h3>
               <p className="text-foreground text-base">
                 Conducts research in computational and nuclear physics. Analyzes

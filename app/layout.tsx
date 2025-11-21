@@ -14,7 +14,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://mansurbala.com"),
   alternates: { canonical: "https://mansurbala.com" },
-  title: "Mansur Bala | Data-Driven Physicist & Computational Analyst",
+  title: "Mansur Bala | Data Scientist & Physicist",
   description:
     "Data scientist and Python developer focused on physics modelling and simulation—analyzing complex datasets, building predictive models, and turning simulation/experimental data into actionable insights from nuclear reactors to orbital mechanics.",
   keywords: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   ],
   robots: { index: true, follow: true },
   openGraph: {
-    title: "Mansur Bala | Data-Driven Physicist & Computational Analyst",
+    title: "Mansur Bala | Data Scientist & Physicist",
     description:
       "Data scientist and Python developer with a strong foundation in physics modelling and simulation—delivering actionable insights from complex datasets, simulations, and experiments.",
     url: "https://mansurbala.com",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mansur Bala | Data-Driven Physicist & Computational Analyst",
+    title: "Mansur Bala | Data Scientist & Physicist",
     description:
       "Physics modelling, simulation, and data science—analyzing complex datasets and building predictive models to turn simulation/experimental data into actionable insights.",
     creator: "@Mr_mansuuR",
