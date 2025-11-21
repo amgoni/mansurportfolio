@@ -12,13 +12,15 @@ export function SkillCard({ name, Icon, className }: SkillCardProps) {
   return (
     <div
       className={cn(
-        "border-border bg-card text-foreground inline-flex w-full min-w-[180px] items-center gap-3 rounded-xl border px-6 py-4",
+        "border-border bg-card text-foreground flex w-full min-w-[180px] items-start gap-3 rounded-xl border px-6 py-4",
         className,
       )}
       role="listitem"
     >
-      {Icon && <Icon className="text-primary h-5 w-5" aria-hidden />}
-      <span className="text-base font-medium whitespace-nowrap">{name}</span>
+      {Icon && <Icon className="text-primary h-5 w-5 shrink-0" aria-hidden />}
+      <span className="text-base leading-snug font-medium wrap-break-word whitespace-normal">
+        {name}
+      </span>
     </div>
   );
 }

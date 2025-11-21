@@ -14,22 +14,26 @@ const About = () => {
       <div className="space-y-6 text-lg">
         <Reveal delay={0.2}>
           <p>
-            I&apos;m a physicist and data analyst with a background in{" "}
-            <strong>Nuclear and Radiation Physics</strong>. My work explores how
-            physical modeling and data science intersect — using simulation,
-            mathematical modeling, and Python-based computation to interpret and
-            visualize complex physical and engineering systems.
+            I&apos;m a data scientist and Python developer with a strong
+            foundation in physics modelling and simulation. I specialize in
+            analysing complex datasets, building predictive models, and
+            transforming simulation or experimental data into actionable
+            insights. I leverage Python, statistical modelling, and data
+            visualization to extract meaningful patterns from complex systems,
+            from nuclear reactors to orbital mechanics. My work combines
+            computational rigor, problem-solving, and clear communication to
+            deliver insights that drive informed decisions.
           </p>
         </Reveal>
 
         <Reveal delay={0.3}>
           <p>
-            I enjoy extracting meaning from data — whether through field
-            measurements, simulation output, or experimental results — and
-            transforming those insights into clear, evidence-based narratives.
-            Beyond research, I value clarity in communication and enjoy
-            mentoring and developing learning strategies that inspire curiosity
-            and engagement.
+            I&apos;m motivated by the challenge of turning complex results into
+            clear, evidence-based narratives, whether they come from
+            simulations, measurements, or experiments. I focus on presenting
+            insights in ways that are intuitive, practical, and useful for
+            decision-making. I also enjoy mentoring and helping others build
+            strong analytical and problem-solving skills.
           </p>
         </Reveal>
       </div>
@@ -63,7 +67,8 @@ const About = () => {
 
       <Image
         src="/atom.png"
-        alt="Atom"
+        alt=""
+        aria-hidden="true"
         width={500}
         height={500}
         className="absolute bottom-0 -z-10 hidden overflow-clip opacity-10 md:-right-70 md:block"

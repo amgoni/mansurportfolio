@@ -14,8 +14,8 @@ const Contact = () => {
 
       <Reveal delay={0.1}>
         <p className="text-foreground mx-auto mb-8 max-w-2xl text-lg">
-          Interested in research collaboration, supervision, or data science
-          projects? I’m open to meaningful work and conversations.
+          I&apos;m open to remote projects involving Python programming, data
+          analysis, data entry, or computational modelling.
         </p>
       </Reveal>
 
@@ -41,7 +41,8 @@ const Contact = () => {
       </div>
       <Image
         src="/data.png"
-        alt="Data"
+        alt=""
+        aria-hidden="true"
         width={500}
         height={500}
         className="absolute bottom-0 -z-10 hidden overflow-clip opacity-10 md:right-0 md:block"
