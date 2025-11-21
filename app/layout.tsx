@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://mansurbala.com" },
   title: "Mansur Bala | Data-Driven Physicist & Computational Analyst",
   description:
-    "Portfolio of Mansur Mohammed Bala — bridging Physics, Data Science, and Computational Modeling to explore nuclear systems, simulations, and data insights.",
+    "Data scientist and Python developer focused on physics modelling and simulation—analyzing complex datasets, building predictive models, and turning simulation/experimental data into actionable insights from nuclear reactors to orbital mechanics.",
   keywords: [
     "Mansur Bala",
     "Data Scientist",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mansur Bala | Data-Driven Physicist & Computational Analyst",
     description:
-      "Physics-driven Data Scientist exploring simulation, computation, and analysis in complex systems.",
+      "Data scientist and Python developer with a strong foundation in physics modelling and simulation—delivering actionable insights from complex datasets, simulations, and experiments.",
     url: "https://mansurbala.com",
     siteName: "Mansur Bala Portfolio",
     images: [
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mansur Bala | Data-Driven Physicist & Computational Analyst",
     description:
-      "Portfolio of Mansur Mohammed Bala — Physics meets Data Science.",
+      "Physics modelling, simulation, and data science—analyzing complex datasets and building predictive models to turn simulation/experimental data into actionable insights.",
     creator: "@Mr_mansuuR",
     images: ["/og-image.png"],
   },
